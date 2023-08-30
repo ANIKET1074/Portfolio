@@ -4,11 +4,11 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <div className="About min-h-[90vh] md:mt-[8rem] gap-5" id="about">
+      <div className="About min-h-[100vh] gap-5 " id="about">
         <h1 className="text-5xl font-bold text-center">About me</h1>
-        <div className="content flex mt-[2rem]">
-          <div className="left flex-col flex-[50%]">
-            <div className="ctxt md:px-[7rem] mt-6 min-h-[35%]">
+        <div className="content1 flex justify-around mt-[2rem] h-fit">
+          <div className="ctxt  w-[100%] mt-6">
+            <p className="text-justify">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Cupiditate, voluptatum quam perferendis sapiente cumque eos
               commodi corrupti esse consectetur saepe accusantium ea quas quos
@@ -26,13 +26,13 @@ const About = () => {
               perspiciatis repellendus suscipit, praesentium deserunt recusandae
               possimus culpa accusantium voluptatibus asperiores enim molestias
               exercitationem eos dolor a. Quis, commodi? Et, esse quia?.
-            </div>
+            </p>
           </div>
-          <div className="right flex flex-[50%] items-center justify-center mt-[2rem] aboutimage">
+          <div className="right items-center justify-center mt-[2rem] aboutimage">
             <img
               src="./images/photo_2020-12-05_18-43-24.jpg"
               alt=""
-              className="w-[30rem] h-[28rem] rounded-xl"
+              className="w-[28rem] h-[28rem] rounded-xl aboutImg"
             />
           </div>
         </div>
