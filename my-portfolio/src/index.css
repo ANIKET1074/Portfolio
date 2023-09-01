@@ -42,12 +42,6 @@ code {
 }
 
 /*  */
-
-html {
-  /* scroll-behavior: smooth; */
-}
-
-/*  */
 body {
   background-color: white;
   /* filter: blur(4px); */
@@ -74,8 +68,8 @@ body {
 /*  */
 
 .active {
-  border-bottom: 2px solid #0a1f30;
-  color: yellow;
+  border-bottom: 4px solid #010101;
+  /* color: white; */
 }
 
 /* .aboutimage {
@@ -83,7 +77,7 @@ body {
 } */
 /* Responsive */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 710px) {
   #Education {
     border-radius: 0;
     padding: 0;
@@ -95,7 +89,7 @@ body {
 
   .About {
     margin-top: 1rem;
-    height: 52rem;
+    height: fit-content;
   }
 
   .skills {
@@ -104,9 +98,6 @@ body {
   }
   .ctxt {
     padding: 0;
-  }
-  .aboutimage {
-    display: none;
   }
 
   .f-right {
