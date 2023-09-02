@@ -4,22 +4,28 @@ const Links = () => {
   return (
     <>
       <div className="f-right flex-1 flex flex-col gap-[2.5rem] justify-center h-[320px] m-auto px-3">
-        <div className="mail flex gap-4 w-[100%] items-center">
+        <a
+          href="mailto:aniketjadav2002@gmail.com"
+          className="mail flex gap-4 w-[100%] items-center"
+        >
           <img
             src="./images/svg-icons/at.svg"
             alt=""
             className="border-2 border-white rounded-full w-[2.3rem] p-1"
           />
           <span className="text-white text-lg">aniketjadav2002@gmail.com</span>
-        </div>
-        <div className="mail flex gap-4 w-[100%] items-center">
+        </a>
+        <a
+          href="tel:+91  9106881074"
+          className="mail flex gap-4 w-[100%] items-center"
+        >
           <img
             src="./images/svg-icons/phone.svg"
             alt=""
             className="border-2 border-white rounded-full w-[2.3rem] p-1"
           />
           <span className="text-white text-lg">+91 9106881074</span>
-        </div>
+        </a>
         <div className="mail flex gap-4 w-[100%] items-center">
           <img
             src="./images/svg-icons/home.svg"
@@ -44,7 +50,7 @@ const Links = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/aniket-jadav-9b77a7211/"
+            href="https://www.linkedin.com/in/aniket-jadav"
             className="linkedin"
             target="_blank"
             rel="noopener noreferrer"
