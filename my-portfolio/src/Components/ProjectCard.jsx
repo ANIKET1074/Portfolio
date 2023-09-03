@@ -22,7 +22,12 @@ const ProjectCard = ({ image, pname, skills, content, projectlink }) => {
         <div className="projectDesc">
           <h2>{pname}</h2>
           <p>{content}</p>
-          <a href={projectlink} rel="noreferrer" target="_blank">
+          <a
+            href={projectlink}
+            rel="noreferrer"
+            target="_blank"
+            className="projectcode"
+          >
             Code &lt;/&gt;
           </a>
         </div>
