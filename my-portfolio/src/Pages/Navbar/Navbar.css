@@ -34,7 +34,10 @@ header {
   /* position: sticky;
   top: 0;
   z-index: 100; */
+  /* Slate blue */
+  /* background-color: hsl(255, 64%, 59%); */
   background: rgb(89, 98, 200);
+  /* background-color: rgb(13, 134, 254); */
   color: white;
   /* filter: blur(2px); */
 }
