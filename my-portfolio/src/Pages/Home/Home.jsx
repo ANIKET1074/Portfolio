@@ -65,7 +65,7 @@ const Home = () => {
                 <img
                   src="./images/icons/octocat.svg"
                   alt=""
-                  className="w-[2.85rem] h-[2.85rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] rounded-[100%] border border-[#521d91] hover:scale-110 duration-500 ease-in-out"
+                  className="w-[2.5rem] h-[2.5rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] rounded-[100%] border border-[#521d91] hover:scale-110 duration-500 ease-in-out"
                 />
               </a>
               <a
@@ -77,7 +77,7 @@ const Home = () => {
                 <img
                   src="./images/icons/linkedin.svg"
                   alt=""
-                  className="w-[2.85rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] border border-[#521d91] rounded-full hover:scale-110 duration-500 ease-in-out"
+                  className="w-[2.5rem] h-[2.5rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] border border-[#521d91] rounded-full hover:scale-110 duration-500 ease-in-out"
                 />
               </a>
               <a
@@ -89,7 +89,7 @@ const Home = () => {
                 <img
                   src="./images/icons/twitter.svg"
                   alt=""
-                  className="w-[2.85rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] border border-[#521d91] rounded-full h-[2.85rem] hover:scale-110 duration-500 ease-in-out"
+                  className="w-[2.5rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] border border-[#521d91] rounded-full h-[2.5rem] hover:scale-110 duration-500 ease-in-out"
                 />
               </a>
             </div>
