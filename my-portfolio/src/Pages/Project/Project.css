@@ -43,6 +43,11 @@
   border-radius: 1rem;
   padding: 0.35rem;
 }
+/* 
+.projectcode {
+  font-family: Menlo, Monaco;
+  /* font-size: 2rem; */
+/* } */
 
 .projectCard:hover .projectDesc {
   opacity: 1;
