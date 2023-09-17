@@ -39,7 +39,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   to="home"
                   smooth={true}
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                   activeClass="active"
                 >
                   Home
@@ -51,7 +51,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   to="about"
                   smooth={true}
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                 >
                   About
                 </Link>
@@ -62,7 +62,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="skills"
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                 >
                   Skills
                 </Link>
@@ -73,7 +73,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="service"
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                 >
                   Service
                 </Link>
@@ -84,7 +84,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="education"
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                 >
                   Education
                 </Link>
@@ -95,7 +95,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="projects"
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                 >
                   Projects
                 </Link>
@@ -106,7 +106,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="contact"
-                  className="nav_link hover:border-b-4 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
                 >
                   Contact
                 </Link>
