@@ -31,7 +31,7 @@ const Home = () => {
             <div className="heading flex items-center h-[2rem] ">
               <span className=" text-[1.25rem] ">{text}</span>
               <span className=" text-[1.25rem] ">
-                <Cursor cursorStyle="|" cursorBlinking />
+                <Cursor cursorStyle="|" cursorBlink />
               </span>
             </div>
             <p className="description mt-[1rem]">
