@@ -2,5 +2,5 @@
 This is my Portfolio Created using React JS
 
 - For install node-modules
-  - cd file_name
+  - cd my-portfolio
   - npm install
