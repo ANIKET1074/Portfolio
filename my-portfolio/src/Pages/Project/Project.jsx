@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { projects } from "../../Data/Projects";
 import ProjectCard from "./../../Components/ProjectCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project = () => {
   const data = projects.data;
+
+  useEffect(() => {
+    AOS.init({
+      delay: 50,
+      duration: 2000,
+      offset: 120,
+    });
+  }, []);
 
   return (
     <>
@@ -20,6 +30,7 @@ const Project = () => {
                   skills={d.skills}
                   content={d.content}
                   projectlink={d.projectLink}
+                  aos="fade-up"
                 />
               );
             })}
