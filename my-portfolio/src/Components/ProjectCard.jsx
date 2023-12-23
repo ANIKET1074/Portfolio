@@ -1,10 +1,13 @@
 import React from "react";
 import "../Pages/Project/Project.css";
 
-const ProjectCard = ({ image, pname, skills, content, projectlink }) => {
+const ProjectCard = ({ image, pname, skills, content, projectlink, aos }) => {
   return (
     <>
-      <div className="flex flex-col border shadow-2xl rounded-xl bg-[white]  items-center projectCard">
+      <div
+        className="flex flex-col border shadow-2xl rounded-xl bg-[white]  items-center projectCard"
+        data-aos={aos}
+      >
         <img
           src={image}
           alt=""
