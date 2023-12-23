@@ -1,9 +1,12 @@
 import React from "react";
 import "../Pages/Service/Service.css";
-const ServicesCard = ({ image, name }) => {
+const ServicesCard = ({ image, name, aos }) => {
   return (
     <>
-      <div className="service w-[10rem] h-[10rem] border border-[#5219d1] rounded-[0.5rem] justify-center flex flex-col gap-3 items-center">
+      <div
+        className="service w-[10rem] h-[10rem] border border-[#5219d1] rounded-[0.5rem] justify-center flex flex-col gap-3 items-center"
+        data-aos={aos}
+      >
         <div className="sImage w-[3rem] items-center justify-center flex">
           <img src={image} alt="" className="w-[2.65rem]" />
         </div>
